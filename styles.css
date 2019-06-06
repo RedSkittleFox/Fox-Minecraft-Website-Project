@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'minecraft';
+    src: url('fonts/Minecraft.woff2') format('woff2'),
+         url('fonts/Minecraft.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*
+Remove margin 
+*/
+
+html,body {
+	left:0;top:0;right:0;bottom:0;
+	padding:0;margin:0;
+    font-family:Lato,Sans-Serif;
+    background-color: #000
+}
+
+
+div.header{
+	height:100vh;
+	left:0;top:0;right:0;
+	margin:0;padding:0;
+}
+
+div.center {
+	position:absolute;
+	top:50%;left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+
+/*
+    Smooth scrolling the image in the background, gives out pretty cool effect uwu
+*/
+div.smooth_scroll {
+	margin:0;
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+/*
+    Scaling down the logo :P
+*/
+.logo {
+    object-fit: scale-down;
+    width: 500px;
+}
+
+ /* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  } 
+
+div.wrap-top
+  {
+    padding-top:50px;
+  }
+div.wrap-bottom
+  {
+    padding-bottom:50px;
+  }
+
+div.fox
+{
+    background-color:rgba(6,12,20,0.75);
+	color:#aaa;
+	margin:0 10%;
+    padding:10px 10%;
+    padding-bottom:50px;
+}
+
+.fox p.headline
+{
+    text-align:center;
+	font-size:3vw;
+	font-weight:bold;
+	text-shadow:0 0 48px #000,0 0 8px rgba(255,255,255,0.5);
+}
+
+.fox p.pixelated
+{
+    text-align:center;
+	font-size:2.7vw;
+	font-weight:bold;
+	text-shadow:0 0 48px #000,0 0 8px rgba(255,255,255,0.5);
+    font-family: 'Minecraft', Minecraft, monospace;
+}
+
+
+.fox p 
+{
+	text-align:center;
+	font-size:1.2vw;
+	color:#fff;
+    text-shadow:0 0 8px #000;
+}
+
+div.content  {
+	margin:0;padding:0;
+	background-color:#732B00;
+}
+
+.fox td.sub
+{
+    font-size: 1vw;
+    color:rgb(120, 240, 100)
+}
+
